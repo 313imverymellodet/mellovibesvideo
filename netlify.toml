@@ -1,25 +1,2 @@
-plugins = []
-headers = []
-redirects = []
-
-[functions]
-
-  [functions."*"]
-
 [build]
-publish = "/private/tmp/claude-502/-Users-rmorris-Library-CloudStorage-OneDrive-DetroitPistons-Desktop/13ad4e5d-adab-41c2-8c02-fde18a928f6c/scratchpad/whop"
-publishOrigin = "default"
-
-  [build.environment]
-
-  [build.processing]
-
-    [build.processing.css]
-
-    [build.processing.html]
-
-    [build.processing.images]
-
-    [build.processing.js]
-
-  [build.services]
+  publish = "."
